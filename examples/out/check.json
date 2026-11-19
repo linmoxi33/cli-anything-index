@@ -1,0 +1,17 @@
+{
+  "findings": [],
+  "schema_version": 1,
+  "summary": {
+    "error": 0,
+    "info": 0,
+    "warn": 0
+  },
+  "totals": {
+    "documented_commands": 2,
+    "harnesses": 2,
+    "parser_commands": 3,
+    "with_cli_source": 2,
+    "with_json_flag": 2,
+    "with_skill": 2
+  }
+}

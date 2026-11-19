@@ -1,0 +1,59 @@
+{
+  "entries": [
+    {
+      "cli_source": "cad/agent-harness/cli_anything/cad/cad_cli.py",
+      "commands": [
+        "cli",
+        "draw"
+      ],
+      "documented_commands": [
+        "draw"
+      ],
+      "flags": [
+        "--json"
+      ],
+      "framework": "click",
+      "json_flag": true,
+      "parse_error": null,
+      "path": "cad/agent-harness",
+      "skill": {
+        "description": "Draw CAD primitives.",
+        "name": "cli-anything-cad"
+      },
+      "skill_md": "cad/agent-harness/cli_anything/cad/skills/SKILL.md",
+      "software": "cad"
+    },
+    {
+      "cli_source": "notes/agent-harness/cli_anything/notes/notes_cli.py",
+      "commands": [
+        "add"
+      ],
+      "documented_commands": [
+        "add"
+      ],
+      "flags": [
+        "--json"
+      ],
+      "framework": "argparse",
+      "json_flag": true,
+      "parse_error": null,
+      "path": "notes/agent-harness",
+      "skill": {
+        "description": "Append notes.",
+        "name": "cli-anything-notes"
+      },
+      "skill_md": "notes/agent-harness/cli_anything/notes/skills/SKILL.md",
+      "software": "notes"
+    }
+  ],
+  "root": "examples/in",
+  "schema_version": 1,
+  "totals": {
+    "documented_commands": 2,
+    "harnesses": 2,
+    "parser_commands": 3,
+    "with_cli_source": 2,
+    "with_json_flag": 2,
+    "with_skill": 2
+  }
+}
