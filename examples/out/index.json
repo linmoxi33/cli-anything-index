@@ -3,7 +3,6 @@
     {
       "cli_source": "cad/agent-harness/cli_anything/cad/cad_cli.py",
       "commands": [
-        "cli",
         "draw"
       ],
       "documented_commands": [
@@ -51,7 +50,7 @@
   "totals": {
     "documented_commands": 2,
     "harnesses": 2,
-    "parser_commands": 3,
+    "parser_commands": 2,
     "with_cli_source": 2,
     "with_json_flag": 2,
     "with_skill": 2
